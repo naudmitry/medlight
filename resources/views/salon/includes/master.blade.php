@@ -10,6 +10,7 @@
         <meta charset="utf-8">
         <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
         <!-- Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300i,400,400i,700%7CMontserrat:400,500,600,700,800%7CPlayfair+Display:400,700,700i%7CFjalla+One">
         <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
         <link type="text/css" rel="stylesheet" href="{{ asset('css/fonts.css') }}">
         <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -32,8 +33,11 @@
             </div>
         </div>
         <div class="page">
+            @include('salon.includes.navigation')
             @yield('content')
+            @include('salon.includes.footer')
         </div>
+
         <div class="snackbars" id="form-output-global"></div>
 
         <script src="{{ asset('js/core.min.js') }}"></script>

@@ -28,4 +28,28 @@ class IndexController extends Controller
     {
         return view('salon.coming_soon.index');
     }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function contacts()
+    {
+        return view('salon.contacts.index');
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function services()
+    {
+        return view('salon.services.index');
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function about()
+    {
+        return view('salon.about.index');
+    }
 }
