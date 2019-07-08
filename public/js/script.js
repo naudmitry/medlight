@@ -390,19 +390,19 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "Обязательно для заполнения."
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "Email не действительный."
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Требуются только цифры."
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "Пожалуйста, выберите опцию."
 				}
 			];
 
@@ -1295,13 +1295,13 @@
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 				msg = {
-					'MF000': 'Successfully sent!',
-					'MF001': 'Recipients are not set!',
-					'MF002': 'Form will not work locally!',
-					'MF003': 'Please, define email field in your form!',
-					'MF004': 'Please, define type of your form!',
-					'MF254': 'Something went wrong with PHPMailer!',
-					'MF255': 'Aw, snap! Something went wrong.'
+					'MF000': 'Успешно отправлено!',
+					'MF001': 'Получатели не установлены!',
+					'MF002': 'Форма не будет работать локально!',
+					'MF003': 'Пожалуйста, укажите поле электронной почты в вашей форме!',
+					'MF004': 'Пожалуйста, определите тип вашей формы!',
+					'MF254': 'Что-то пошло не так с PHPMailer!',
+					'MF255': 'Вот, блин! Что-то пошло не так.'
 				};
 
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
@@ -1369,7 +1369,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Ожидайте</span></p>');
 								output.addClass("active");
 							}
 						} else {

@@ -16,7 +16,8 @@
                     </div>
                     <p><span style="max-width: 840px;">Оставьте вашу почту, и мы сообщим вам о нашем запуске.</span></p>
                     <div class="rd-mailform-wrap block-sm">
-                        <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                        <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="{{ route('site.subscribe.store') }}">
+                            @csrf
                             <div class="form-wrap">
                                 <input class="form-input" id="subscribe-form-email" type="email" name="email" data-constraints="@Email @Required">
                                 <label class="form-label" for="subscribe-form-email">Email</label>

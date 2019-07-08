@@ -13,3 +13,5 @@
 
 Route::get('/', 'Site\IndexController@index')->name('site.index');
 Route::get('/coming-soon', 'Site\IndexController@comingSoon')->name('site.coming-soon.index');
+
+Route::post('/subscribe/store', 'Site\SubscribeController@store')->name('site.subscribe.store');
