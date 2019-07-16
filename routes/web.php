@@ -18,3 +18,4 @@ Route::get('/services', 'Site\IndexController@services')->name('site.services.in
 Route::get('/about', 'Site\IndexController@about')->name('site.about.index');
 
 Route::post('/subscribe/store', 'Site\SubscribeController@store')->name('site.subscribe.store');
+Route::post('/help-desk/store', 'Site\HelpDeskController@store')->name('site.help-desk.store');

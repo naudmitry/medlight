@@ -11,10 +11,18 @@
             <div class="col-lg-10">
                 <div class="footer-nav">
                     <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('site.index') }}">Главная</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="overview.html">О нас</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('site.services.index') }}">Услуги</a></li>
-                        <li class="rd-nav-item active"><a class="rd-nav-link" href="{{ route('site.contacts.index') }}">Конакты</a></li>
+                        <li class="rd-nav-item {{ (Request::url() == route('site.index') ? 'active' : '') }}">
+                            <a class="rd-nav-link" href="{{ route('site.index') }}">Главная</a>
+                        </li>
+                        <li class="rd-nav-item {{ (Request::url() == route('site.about.index') ? 'active' : '') }}">
+                            <a class="rd-nav-link" href="{{ route('site.about.index') }}">О нас</a>
+                        </li>
+                        <li class="rd-nav-item {{ (Request::url() == route('site.services.index') ? 'active' : '') }}">
+                            <a class="rd-nav-link" href="{{ route('site.services.index') }}">Услуги</a>
+                        </li>
+                        <li class="rd-nav-item {{ (Request::url() == route('site.contacts.index') ? 'active' : '') }}">
+                            <a class="rd-nav-link" href="{{ route('site.contacts.index') }}">Конакты</a>
+                        </li>
                     </ul>
                 </div>
             </div>

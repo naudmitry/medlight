@@ -30,11 +30,6 @@
     <div class="page">
         <section class="section section-single" style="background-image: url(images/big-bg-3.jpg); background-size: cover;">
             <div class="section-single-inner">
-                <div class="section-single-header">
-                    <div class="container">
-                        <a class="brand" href="{{ route('site.coming-soon.index') }}"><img src="{{ asset('images/logo.png') }}" alt="brand" width="137" height="47"/></a>
-                    </div>
-                </div>
                 <div class="section-single-main">
                     <div class="container">
                         <h2>Сайт скоро появится</h2>

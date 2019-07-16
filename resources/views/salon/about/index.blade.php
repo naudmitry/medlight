@@ -6,37 +6,49 @@
         'title' => 'О нас',
     ])
 
+    <section class="section parallax-container" data-parallax-img="images/parallax-04-1920x1320.jpg">
+        <div class="parallax-content section-lg context-dark text-center section-filter-dark">
+            <div class="container">
+                <h2>Video Presentation </h2>
+                <div class="divider-lg"></div>
+                <p class="block-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum bibendum elit cursus dapibus maximus. Maecenas sapien urna, cursus ut turpis non, gravida vehicula nisl. </p>
+            </div>
+            <div class="container">
+                <div class="box-video-button" data-lightgallery="group"><a class="button-play" data-lightgallery="item" href="https://www.youtube.com/watch?v=m10Vl9TXpec"><span class="icon fa-play"></span></a></div>
+            </div>
+        </div>
+    </section>
     <section class="section section-lg bg-default">
         <div class="container">
             <div class="row row-50 align-items-lg-center justify-content-xl-between">
                 <div class="col-lg-6">
                     <div class="block-xs">
-                        <h2>Who We Are</h2>
+                        <h2>Кто мы такие</h2>
                         <div class="divider-lg"></div>
-                        <p class="big text-gray-800">Cras ut vestibulum tortor. In in nisi sit amet metus varius pulvinar in vitae ipsum nec mi sollicitudin Fusce turpis massa,</p>
-                        <p>In ante sapien, dapibus luctus aliquet a, accumsan sit amet dolor. Mauris id facilisis dolor. Donec malesuada, est eu dignissim eleifend, est nulla dignissim nisl. Fusce turpis massa, mattis sit.</p>
+                        <p class="big text-gray-800">Для Вас работает Новикова Ольга Владимировна: косметик 5 разряда, врач 1 квалификационной категории, эстетический хирург, специалист по лазерным методикам в эстетической медицине, диетолог-нутрициолог, сертифицированный тренер института HYALUAL.</p>
+                        <p>Мы разработали комплекс уникальных программ и методик для коррекции возрастных изменений, акне, розацеа, гиперпигментации, целлюлита и дряблости кожи, лишнего веса. Данные программы являются авторским и не используются больше нигде. Они включают в себя комплекс уходовых и аппаратных процедур, а также уникальных методик массажа. Косметологическая мультисистема нашего центра (производство Италия) не имеет аналогов в республике!</p>
                     </div>
                     <div class="row row-30">
                         <div class="col-md-6">
                             <div class="box-contact-info-with-icon"><span class="icon mdi mdi-clock icon-primary"></span>
-                                <h5>Opening Hours</h5>
+                                <h5>Часы работы</h5>
                                 <ul class="list-xs">
-                                    <li> <span class="text-gray-800">Monday-Friday: </span> 8:00am–8:00pm
+                                    <li>
+                                        <span class="text-gray-800">Пн-Пт: </span> 8:00–17:00
                                     </li>
-                                    <li><span class="text-gray-800">Saturday:</span> 8:00am–6:00pm
-                                    </li>
-                                    <li><span class="text-gray-800">Sunday: </span> Closed
+                                    <li>
+                                        <span class="text-gray-800">Сб-Вс:</span> Выходной
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="box-contact-info-with-icon"><span class="icon mdi mdi-clock icon-primary"></span>
-                                <h5>Our Location</h5>
+                                <h5>Наше место нахождения</h5>
                                 <ul class="list-xs">
-                                    <li><span class="text-gray-800">Address: </span> Washington, USA 6036 Richmond hwy.,  VA, 2230
+                                    <li><span class="text-gray-800">Адрес: </span> г. Витебск, ул. Смоленская, 20
                                     </li>
-                                    <li><span class="text-gray-800">Offices: </span> 284-290
+                                    <li><span class="text-gray-800">Телефон: </span> +375 (33) 699-95-03
                                     </li>
                                 </ul>
                             </div>
@@ -54,72 +66,24 @@
             </div>
         </div>
     </section>
-    <section class="section parallax-container" data-parallax-img="images/parallax-04-1920x1320.jpg">
-        <div class="parallax-content section-lg context-dark text-center section-filter-dark">
-            <div class="container">
-                <h2>Video Presentation </h2>
-                <div class="divider-lg"></div>
-                <p class="block-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum bibendum elit cursus dapibus maximus. Maecenas sapien urna, cursus ut turpis non, gravida vehicula nisl. </p>
-            </div>
-            <div class="container">
-                <div class="box-video-button" data-lightgallery="group"><a class="button-play" data-lightgallery="item" href="https://www.youtube.com/watch?v=m10Vl9TXpec"><span class="icon fa-play"></span></a></div>
-            </div>
-        </div>
-    </section>
-    <section class="section section-md bg-default text-center">
-        <div class="container">
-            <h2>Our Professional Team</h2>
-            <div class="divider-lg"></div>
-            <p class="block-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum bibendum elit cursus dapibus maximus. Maecenas sapien urna, cursus ut turpis non, gravida vehicula nisl. </p>
-            <div class="row row-30">
-                <div class="col-12">
-                    <!-- Owl Carousel-->
-                    <div class="owl-carousel carousel-creative" data-items="1" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="true" data-autoplay="true" data-margin="30" data-mouse-drag="false">
-                        <div class="team-minimal team-minimal-with-shadow">
-                            <figure><img src="images/team-1-370x370.jpg" alt="" width="370" height="370"></figure>
-                            <div class="team-minimal-caption">
-                                <h4 class="team-title"><a href="team-member-profile.html">Mary Lucas</a></h4>
-                                <p>Senior Masseur</p>
-                            </div>
-                        </div>
-                        <div class="team-minimal team-minimal-with-shadow">
-                            <figure><img src="images/team-2-370x370.jpg" alt="" width="370" height="370"></figure>
-                            <div class="team-minimal-caption">
-                                <h4 class="team-title"><a href="team-member-profile.html">Ann Butler</a></h4>
-                                <p>Chiropractor</p>
-                            </div>
-                        </div>
-                        <div class="team-minimal team-minimal-with-shadow">
-                            <figure><img src="images/team-3-370x370.jpg" alt="" width="370" height="370"></figure>
-                            <div class="team-minimal-caption">
-                                <h4 class="team-title"><a href="team-member-profile.html">Emily Lawrence</a></h4>
-                                <p>Masseur</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12"><a class="button button-default-outline" href="our-team.html">View all team</a></div>
-            </div>
-        </div>
-    </section>
     <section class="section parallax-container" data-parallax-img="images/parallax-1-1920x870.jpg">
         <div class="parallax-content section-lg context-dark text-center">
             <div class="container">
                 <div class="row justify-content-md-center row-30">
                     <div class="col-md-9 col-lg-8">
-                        <h2>Subscribe to Our Newsletter</h2>
+                        <h2>Подписывайтесь на нашу новостную рассылку</h2>
                         <div class="divider-lg"></div>
-                        <p class="big">Be the first to know about our promotions and discounts!</p>
+                        <p class="big">Узнавайте первыми о наших акциях и скидках!</p>
                     </div>
                     <div class="col-md-9 col-lg-6">
                         <!-- RD Mailform-->
                         <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                             <div class="form-wrap">
                                 <input class="form-input" id="subscribe-form-0-email" type="email" name="email" data-constraints="@Email @Required"/>
-                                <label class="form-label" for="subscribe-form-0-email">Your E-mail</label>
+                                <label class="form-label" for="subscribe-form-0-email">Ваш адрес электронной почты</label>
                             </div>
                             <div class="form-button">
-                                <button class="button button-white" type="submit">Subscribe</button>
+                                <button class="button button-white" type="submit">Подписаться</button>
                             </div>
                         </form>
                     </div>

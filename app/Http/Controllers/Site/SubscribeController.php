@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Requests\StoreSubscribe;
-use App\Models\Subscribe;
+use App\Models\Site\Subscribe;
 
 class SubscribeController extends Controller
 {
