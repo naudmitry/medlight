@@ -21,7 +21,7 @@
                             <a class="rd-nav-link" href="{{ route('site.services.index') }}">Услуги</a>
                         </li>
                         <li class="rd-nav-item {{ (Request::url() == route('site.contacts.index') ? 'active' : '') }}">
-                            <a class="rd-nav-link" href="{{ route('site.contacts.index') }}">Конакты</a>
+                            <a class="rd-nav-link" href="{{ route('site.contacts.index') }}">Контакты</a>
                         </li>
                     </ul>
                 </div>
