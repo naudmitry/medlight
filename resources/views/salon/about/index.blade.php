@@ -65,7 +65,8 @@
                     </div>
                     <div class="col-md-9 col-lg-6">
                         <!-- RD Mailform-->
-                        <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                        <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="{{ route('site.subscribe.store') }}">
+                            @csrf
                             <div class="form-wrap">
                                 <input class="form-input" id="subscribe-form-0-email" type="email" name="email" data-constraints="@Email @Required"/>
                                 <label class="form-label" for="subscribe-form-0-email">Ваш адрес электронной почты</label>
