@@ -11,7 +11,6 @@
                     <h2>Связаться с нами</h2>
                     <div class="divider-lg"></div>
                     <p>Вы можете связаться с нами любым удобным для вас способом. Мы доступны 24/7 по телефону или электронной почте. Вы также можете использовать форму быстрой связи ниже или посетить наш салон лично.</p>
-                    <!-- RD Mailform-->
                     <form class="rd-mailform text-left rd-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="{{ route('site.help-desk.store') }}">
                         @csrf
                         <div class="row row-15">
@@ -63,14 +62,18 @@
                         </li>
                         <li>
                             <p class="contact-list-title">Email</p>
-                            <div class="contact-list-content"><span class="icon mdi mdi-email-outline icon-primary"></span>ir-nov@yandex.by</div>
+                            <div class="contact-list-content"><span class="icon mdi mdi-email-outline icon-primary"></span>medlight86@mail.ru</div>
+                        </li>
+                        <li>
+                            <p class="contact-list-title">Социальные сети</p>
+                            <div class="contact-list-content"><a target="_blank" href="https://vk.com/medlight">vk.com/medlight</a></div>
                         </li>
                         <li>
                             <p class="contact-list-title">Часы работы</p>
                             <div class="contact-list-content"><span class="icon mdi mdi-clock icon-primary"></span>
                                 <ul class="list-xs">
-                                    <li>Пн-Пт: 8.00 – 17.00</li>
-                                    <li>Сб-Вс: Выходной</li>
+                                    <li>Пн-Вс: 9.00 – 21.00</li>
+                                    <li>По предварительной записи</li>
                                 </ul>
                             </div>
                         </li>

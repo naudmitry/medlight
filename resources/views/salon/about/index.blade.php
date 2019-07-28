@@ -22,10 +22,10 @@
                                 <h5>Часы работы</h5>
                                 <ul class="list-xs">
                                     <li>
-                                        <span class="text-gray-800">Пн-Пт: </span> 8:00–17:00
+                                        <span class="text-gray-800">Пн-Вс: </span> 9:00–21:00
                                     </li>
                                     <li>
-                                        <span class="text-gray-800">Сб-Вс:</span> Выходной
+                                        <span class="text-gray-800">По предварительной записи</span>
                                     </li>
                                 </ul>
                             </div>
@@ -45,9 +45,9 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="box-images box-images-variant-3">
-                        <div class="box-images-item" data-parallax-scroll="{&quot;y&quot;: -20,   &quot;smoothness&quot;: 30 }"><img src="images/overview-1-470x282.jpg" alt="" width="470" height="282"/>
+                        <div class="box-images-item" data-parallax-scroll="{&quot;y&quot;: -20,   &quot;smoothness&quot;: 30 }"><img src="images/twuUG3bBby0.jpg" alt="" width="470" height="282"/>
                         </div>
-                        <div class="box-images-item box-images-without-border" data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30 }"><img src="images/overview-2-470x282.jpg" alt="" width="470" height="282"/>
+                        <div class="box-images-item box-images-without-border" data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30 }"><img src="images/d6yWckS5tys.jpg" alt="" width="470" height="282"/>
                         </div>
                     </div>
                 </div>
