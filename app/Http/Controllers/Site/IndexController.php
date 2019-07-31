@@ -2,23 +2,14 @@
 
 namespace App\Http\Controllers\Site;
 
-use Illuminate\Http\Request;
-
 class IndexController extends Controller
 {
     /**
-     * @param Request $request
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
      */
-    public function index(Request $request)
+    public function index()
     {
-        $preview = $request->get('preview');
-
-        if ($preview) {
-            return view('salon.index');
-        }
-
-        return redirect()->route('site.coming-soon.index');
+        return view('salon.index');
     }
 
     /**
