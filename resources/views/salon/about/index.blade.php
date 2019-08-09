@@ -1,5 +1,10 @@
 @extends('salon.includes.master')
 
+@section('header_meta')
+    <title>О нас | Салон красоты Medlight</title>
+    <meta name="description" content="Салон красоты Medlight разработал комплекс уникальных программ и методик для коррекции возрастных изменений, акне, розацеа, гиперпигментации, целлюлита и дряблости кожи, лишнего веса. Данные программы являются авторским и не используются больше нигде."/>
+    <meta name="keywords" content="салон красоты, медлайт, medlight, центр красоты, салон красоты в Витебске, о нас, информация, уникальные программы"/>
+@endsection
 
 @section('content')
     @include('salon.includes.breadcrumbs', [

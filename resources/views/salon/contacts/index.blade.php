@@ -1,5 +1,11 @@
 @extends('salon.includes.master')
 
+@section('header_meta')
+    <title>Контакты | Салон красоты Medlight</title>
+    <meta name="description" content="Салон красоты Medlight работает без выходных с 9 до 21 часов, пройти процедуру можно по адресу г. Витебск, ул. Смоленская, 20, записаться на прием можно по телефону +375 (33) 699-95-03."/>
+    <meta name="keywords" content="салон красоты, медлайт, medlight, центр красоты, салон красоты в Витебске, контакты"/>
+@endsection
+
 @section('content')
     @include('salon.includes.breadcrumbs', [
         'title' => 'Контакты',

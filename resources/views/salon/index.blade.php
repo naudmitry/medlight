@@ -1,5 +1,11 @@
 @extends('salon.includes.master')
 
+@section('header_meta')
+    <title>Центр красоты и здоровья "Medlight" в Витебске - салон красоты</title>
+    <meta name="description" content="Салон красоты Medlight имеет комплекс уникальных программ и методик для коррекции возрастных изменений. Данные программы являются авторскими. Они включают в себя комплекс уходовых и аппаратных процедур, а также уникальных методик массажа."/>
+    <meta name="keywords" content="салон красоты, медлайт, medlight, центр красоты, салон красоты в Витебске, оздоровление"/>
+@endsection
+
 @section('content')
     <!-- Swiper-->
     <section class="section swiper-container swiper-slider swiper-slider-2 slider-scale-effect" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
